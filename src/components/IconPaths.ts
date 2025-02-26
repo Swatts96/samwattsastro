@@ -35,4 +35,33 @@ export const iconPaths = {
 	'linkedin-logo': `<rect width="184" height="184" x="36" y="36" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" rx="8"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M120 112v64m-32-64v64m32-36a28 28 0 0 1 56 0v36"/><circle stroke="none" cx="88" cy="80" r="12"/>`,
 	'instagram-logo': `<circle cx="128" cy="128" r="40" fill="none" stroke-miterlimit="10" stroke-width="16"/><rect width="184" height="184" x="36" y="36" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" rx="48"/><circle cx="180" cy="76" r="12" stroke="none" />`,
 	'tiktok-logo': `<path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M168 106a96 96 0 0 0 56 18V84a56 56 0 0 1-56-56h-40v128a28 28 0 1 1-40-25V89a68 68 0 1 0 80 67Z"/>`,
+	'key': `
+  <defs>
+    <linearGradient id="key-gradient" x1="23" x2="235" y1="43" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="var(--gradient-stop-1)" />
+      <stop offset=".5" stop-color="var(--gradient-stop-2)" />
+      <stop offset="1" stop-color="var(--gradient-stop-3)" />
+    </linearGradient>
+  </defs>
+  <path fill="none" stroke="url(#key-gradient)" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M93.17,122.83A71.68,71.68,0,0,1,88,95.91c0-38.58,31.08-70.64,69.64-71.87A72,72,0,0,1,232,98.36C230.73,136.92,198.67,168,160.09,168a71.68,71.68,0,0,1-26.92-5.17h0L120,176H96v24H72v24H40a8,8,0,0,1-8-8V187.31a8,8,0,0,1,2.34-5.65l58.83-58.83Z"/>
+  <circle cx="180" cy="76" r="12" stroke="url(#key-gradient)"/>
+`,
+
+	'stack': `
+	<defs>
+	<linearGradient id="stack-gradient" x1="23" x2="235" y1="43" y2="202" gradientUnits="userSpaceOnUse">
+		<stop stop-color="var(--gradient-stop-1)" />
+		<stop offset=".5" stop-color="var(--gradient-stop-2)" />
+		<stop offset="1" stop-color="var(--gradient-stop-3)" />
+	</linearGradient>
+	</defs>
+	<path fill="none" stroke="url(#stack-gradient)" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M128,24C74.17,24,32,48.6,32,80v96c0,31.4,42.17,56,96,56s96-24.6,96-56V80C224,48.6,181.83,24,128,24Zm80,104c0,9.62-7.88,19.43-21.61,26.92C170.93,163.35,150.19,168,128,168s-42.93-4.65-58.39-13.08C55.88,147.43,48,137.62,48,128V111.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64ZM69.61,53.08C85.07,44.65,105.81,40,128,40s42.93,4.65,58.39,13.08C200.12,60.57,208,70.38,208,80s-7.88,19.43-21.61,26.92C170.93,115.35,150.19,120,128,120s-42.93-4.65-58.39-13.08C55.88,99.43,48,89.62,48,80S55.88,60.57,69.61,53.08ZM186.39,202.92C170.93,211.35,150.19,216,128,216s-42.93-4.65-58.39-13.08C55.88,195.43,48,185.62,48,176V159.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64V176C208,185.62,200.12,195.43,186.39,202.92Z"/>
+	`,
+
+
+
+
+
+
+
 };

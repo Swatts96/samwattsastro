@@ -1,10 +1,10 @@
 ---
-title: Duvet Genius
+title: FairwayFinder Golf Course Mapping
 publishDate: 2020-03-04 00:00:00
 img: /assets/stock-3.jpg
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
-  We developed a virtual showcase for the softest bedding imaginable.
+  We developed a virtual showcase for the softest beddshowcase for the softest beddshowcase for the softest beddshowcase for the softest beddshowcase for the softest bedding imaginable.
 tags:
   - Design
   - Dev

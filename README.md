@@ -1,4 +1,5 @@
-# Astro Starter Kit: Portfolio
+# Sam Watts Web Portfolio
+# Made using the Astro Starter Kit: Portfolio
 
 
 If you want to create an Astro portfolio of your own, follow the instructions below.
@@ -25,4 +26,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free to check the [Astro documentation](https://docs.astro.build) or jump into their [Discord server](https://astro.build/chat).

@@ -4,7 +4,7 @@ import { defineCollection, z } from 'astro:content';
 export const collections = {
 	work: defineCollection({
 		// Load Markdown files in the src/content/work directory.
-		loader: glob({ base: './src/content/work', pattern: '**/*.md', }),
+		loader: glob({ base: './src/content/work', pattern: '**/*.md' }),
 		schema: z.object({
 			title: z.string(),
 			description: z.string(),
@@ -12,6 +12,7 @@ export const collections = {
 			tags: z.array(z.string()),
 			img: z.string(),
 			img_alt: z.string().optional(),
+			gif: z.string().optional(), // <-- Add this line to support GIFs
 		}),
 	}),
 };

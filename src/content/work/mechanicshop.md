@@ -13,8 +13,8 @@ tags:
   - Vite
   - MongoDB
 ---
-> [View Project](https://github.com/NSCC-ITC-Fall2024-PROG3017-700-MCa/my-fullstack-app-Swatts96/tree/master)  
-> [GitHub Repository](https://github.com/Swatts96/FairwayFinder)
+> [View Project](https://w0292233-fullstack.onrender.com/)  
+> [GitHub Repository](https://github.com/NSCC-ITC-Fall2024-PROG3017-700-MCa/my-fullstack-app-Swatts96/tree/master)
 
 The **Mechanic Shop Backend** project is a fullstack CRUD application built during the first half of my second year. This application enables authenticated users to manage a list of vehicles and maintenance records through an intuitive React-based interface. The project combines React/Vite for the frontend, Express.js for the backend, and MongoDB for data storage.
 

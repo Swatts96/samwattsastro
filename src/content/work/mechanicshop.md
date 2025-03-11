@@ -3,21 +3,42 @@ title: Mechanic Shop Backend (React/Vite)
 publishDate: 2019-12-01 00:00:00
 img: /assets/mechanicshop.gif
 gif: /assets/mechanicshop.gif
-img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
-description: |
-  Developed a backend system for managing a mechanic shop using Vite/React, Express.js and MongoDB.
+img_alt: A screenshot of the Mechanic Shop CRUD page in action
+description: | 
+  Developed a fullstack CRUD application using React/Vite, Express.js, and MongoDB, designed to serve as a backend management system for a mechanic shop.
 tags:
-  - Dev
-  - Branding
+  - React
   - Backend
+  - Fullstack
+  - Vite
+  - MongoDB
 ---
+> [View Project]((https://github.com/NSCC-ITC-Fall2024-PROG3017-700-MCa/my-fullstack-app-Swatts96/tree/master))  
+> [GitHub Repository](https://github.com/Swatts96/FairwayFinder)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+The **Mechanic Shop Backend** project is a fullstack CRUD application built during the first half of my second year. This application enables authenticated users to manage a list of vehicles and maintenance records through an intuitive React-based interface. The project combines React/Vite for the frontend, Express.js for the backend, and MongoDB for data storage.
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+### What I Worked On
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+- **Frontend Development with React/Vite:**  
+  Designed and built a dynamic user interface using React and Vite. The UI allows users to create, update, and delete mechanic shop entries seamlessly.
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- **Backend API with Express.js:**  
+  Implemented RESTful API endpoints to manage vehicle and maintenance data. These endpoints interact with a MongoDB database for persistent storage.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+- **User Authentication:**  
+  Integrated basic authentication to secure the application, ensuring that only authorized users can perform CRUD operations.
+
+- **Responsive Design and Clean UI:**  
+  Applied Bootstrap and custom CSS to create a clean, responsive layout that enhances user interaction and overall usability.
+
+### Future Enhancements
+
+- **Enhanced Authentication and Roles:**  
+  Introduce advanced user roles to control access, ensuring that only authorized personnel can update records.
+- **Detailed Read Pages:**  
+  Create detailed views for each vehicle entry that include comments and service history.
+- **Commenting System:**  
+  Allow users to add comments to document work performed on each car, including details like date completed and cost.
+  
+

@@ -3,14 +3,32 @@ title: NSCC Home Page Redesign
 publishDate: 2020-03-04 00:00:00
 img: /assets/nscchome.gif
 gif: /assets/nscchome.gif
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+img_alt: A modern, reimagined NSCC home page with dynamic visuals and intuitive navigation
 description: | 
-  Resdesigned the NSCC home page in our Web Design Course
+  Redesigned the NSCC home page as part of our Web Design Course, focusing on responsive layouts, updated branding, and improved user experience.
   
 tags:
-  - Design
-  - Dev
-  - Branding
+  - HTML
+  - CSS
+  - Bootstrap
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+For our NSCC Home Page Redesign project, we re-envisioned the look and feel of the NSCC website to better reflect a modern digital presence while improving user experience and accessibility.
+
+### What I Worked On
+
+- **Responsive Layouts:**  
+  We implemented a responsive design that adjusts seamlessly to various screen sizes, ensuring an optimal viewing experience on desktops, tablets, and mobile devices.
+
+- **Updated Branding and Visual Identity:**  
+  Our redesign incorporated new color schemes, updated typography, and high-quality imagery to create a vibrant and engaging interface that aligns with NSCC's branding.
+
+- **Enhanced Navigation:**  
+  The new design features a more intuitive navigation system, including a prominent hero section and clearly defined sections that make it easy for users to find information.
+
+### Project Outcome
+
+The redesign not only modernized the NSCC home page but also provided a robust framework that can be easily updated in the future. The improved structure and user interface pave the way for enhanced content management and future scalability.
+
+Overall, this project represents a successful blend of design and development, showcasing our ability to apply current web standards to create a visually appealing and functional website.
+

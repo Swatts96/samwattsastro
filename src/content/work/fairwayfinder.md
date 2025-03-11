@@ -1,36 +1,37 @@
 ---
-title: Fairway Finder - Golf Course Mapping
+title: Fairway Finder – Golf Course Mapping
 publishDate: 2020-03-02 00:00:00
 img: /assets/fairwayfindervid.gif
 gif: /assets/fairwayfindervid.gif
-img_alt: Iridescent ripples of a bright blue and pink liquid
-description: |
-  Developed a app that maps out all golf courses in Nova Scotia, with info on each.
+img_alt: A dynamic demonstration of Fairway Finder in action, mapping golf courses in Nova Scotia
+description: | 
+  Developed an interactive web application that maps out golf courses across Nova Scotia, providing essential course details and intuitive navigation for golf enthusiasts.
 tags:
+  - Golf
   - Design
-  - Dev
-  - User Testing
+  - Web Development
+  - Innovation
 ---
 
-## Level-two heading
+> [View the Project](https://fairway-finder-tawny.vercel.app/)  
+> [GitHub Repository](https://github.com/Swatts96/FairwayFinder)
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+For the **Fairway Finder** project, I built a modern, interactive application designed to help golf enthusiasts discover, navigate, and explore golf courses across Nova Scotia. This project combines straightforward HTML and JavaScript with the powerful Leaflet library for mapping, all fueled by data from a local `courses.json` file.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+### What I Worked On
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+- **Interactive Mapping:**  
+  Developed an intuitive interface that uses Leaflet to display course maps. Users can view course layouts and zoom in on specific areas for detailed information.
 
-### Level-three heading
+- **Dynamic Data Loading:**  
+  Leveraged the Fetch API to load course data from a local JSON file, dynamically populating dropdowns and other UI elements. Special care was taken to handle country names with spaces by normalizing the names (e.g., replacing spaces with underscores) to match image file naming conventions.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+- **Responsive and Engaging UI:**  
+  Implemented a clean, responsive design using Bootstrap to ensure the app looks great on any device. Smooth animations and transitions enhance the user experience.
 
-### Level-three heading
+### Future Enhancements
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+- **User Accounts and Favourites:**  
+  Allow users to register, save their favourite courses, and review courses they have played.
+- **Live Course Mapping:**  
+  Integrate live mapping data for real-time updates on course conditions.

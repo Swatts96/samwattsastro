@@ -4,14 +4,91 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
-
 <BaseLayout title="About | Sam Watts" description="Learn more about Sam Watts, a web developer with a strong foundation in problem-solving, teamwork, and full-stack development.">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
-				title="Drone work"
-				tagline="Coming soon"
-			>
+				title="Aerial Photography"
+				tagline="Certified Advanced Drone Pilot, mainly doing real estate photography/videography."
+				>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/Horizontal_0802.jpg"
+					alt="Aerial Photography 1"
+				/>
+				<div class="staggered-images">
+					<img
+						width="1553"
+						height="873"
+						src="/assets/Coxeath_1.jpg"
+						alt="Aerial Photography 1"
+					/>
+					<img
+						width="1553"
+						height="873"
+						src="/assets/Coxeath_2.jpg"
+						alt="Aerial Photography 2"
+					/>
+					<img
+						width="1553"
+						height="873"
+						src="/assets/coxeath.jpg"
+						alt="Aerial Photography 3"
+					/>
+					<img
+						width="1553"
+						height="873"
+						src="/assets/ketch.jpg"
+						alt="Aerial Photography 4"
+					/>
+				</div>
+				<img
+				width="1553"
+				height="873"
+				src="/assets/lyons.jpg"
+				alt="Aerial Photography 5"
+			/>
+				<div class="staggered-images">
+					
+					<img
+						width="1553"
+						height="873"
+						src="/assets/Horizontal_0803.jpg"
+						alt="Aerial Photography 5"
+					/>
+					<img
+						width="1553"
+						height="873"
+						src="/assets/DJI_0688.jpg"
+						alt="Aerial Photography 5"
+					/>
+					<img
+						width="1553"
+						height="873"
+						src="/assets/DJI_0691.jpg"
+						alt="Aerial Photography 5"
+					/>
+					<img
+						width="1553"
+						height="873"
+						src="/assets/DJI_0699.jpg"
+						alt="Aerial Photography 5"
+					/>
+				</div>
+
+				<div class="video-container">
+					<iframe
+					src="https://www.youtube.com/embed/hauYUSVs2FQ?si=0e623uPDEKiIjfz0&controls=0&modestbranding=1&rel=0&showinfo=0"
+					title="YouTube video player"
+					frameborder="0"
+					allow="autoplay; encrypted-media"
+					allowfullscreen
+					></iframe>
+				  </div>
+				  
+				  
+				</div>
 			</Hero>
 		</main>
 		<ContactCTA />
@@ -25,53 +102,82 @@ import Hero from '../components/Hero.astro';
 		gap: 3.5rem;
 	}
 
-	img {
-		margin-top: 1.5rem;
+	.staggered-images {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1.5rem;
+	}
+
+	.staggered-images img {
+		width: 100%;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
+		transition: transform 0.3s ease;
 	}
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
+	.video-container {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	background: black;
+	border-radius: 1rem;
+	box-shadow: var(--shadow-md);
 	}
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
+	.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	}
+
+	.staggered-images img:nth-child(odd) {
+		transform: translateX(-15px); /* Stagger left */
+	}
+
+	.staggered-images img:nth-child(even) {
+		transform: translateX(15px); /* Stagger right */
+	}
+
+	.staggered-images img:hover {
+		transform: scale(1.05); /* Optional hover effect */
+	}
+
+	.hero {
+		font-size: var(--text-lg);
+		text-align: center;
+	}
+
+	.title,
+	.tagline {
+		max-width: 37ch;
+		margin-inline: auto;
+	}
+
+	.title {
+		font-size: var(--text-3xl);
 		color: var(--gray-0);
 	}
 
-	.content {
-		grid-column: 2 / 4;
-	}
-
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
-
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
-
 	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
+		.hero {
+			font-size: var(--text-xl);
 		}
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
+		.start {
+			text-align: start;
 		}
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
+		.start .title,
+		.start .tagline {
+			margin-inline: unset;
+		}
+
+		.title {
+			font-size: var(--text-5xl);
 		}
 	}
 </style>
